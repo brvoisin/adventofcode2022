@@ -7,7 +7,7 @@ with open("example.txt") as f:
 
 
 def test_puzzle1():
-    assert puzzle1(LINES) == 15
+    assert puzzle1(LINES) is None
 
 
 def test_puzzle2():
